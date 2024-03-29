@@ -70,3 +70,7 @@ button {
     background-color: royalblue;
     color: white;
 }
+
+footer {
+    border-top: 2px solid red;
+}
