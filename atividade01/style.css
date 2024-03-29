@@ -53,3 +53,7 @@ h2 {
 nav a {
     font-weight: bold;
 }
+
+section {
+    line-height: 1.5;
+}
