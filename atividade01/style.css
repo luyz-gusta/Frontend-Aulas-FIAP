@@ -57,3 +57,7 @@ nav a {
 section {
     line-height: 1.5;
 }
+
+form {
+    border: solid 1px gray;
+}
