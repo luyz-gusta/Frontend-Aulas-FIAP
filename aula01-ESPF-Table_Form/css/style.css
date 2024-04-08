@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    padding: 16px;
+    align-items: center;
+}
+
+h1, h2{
+    width: 100%;
+}
+
+.tbl, th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    font-size: 110%;
+}
+
+.tbl-ex1{
+    border-collapse: separate;
+    border: 1px solid black;
+    font-size: 110%;
+}
+
+th{
+    font-weight: 800;
+}
+
+td{
+    font-weight: 500;
+}
+
+thead{
+    background-color: royalblue;
+    color: aliceblue;
+}
+
+table{
+    width: 60%;
+}

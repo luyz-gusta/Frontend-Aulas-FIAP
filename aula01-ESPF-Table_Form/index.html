@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Aula 08/04/2024</title>
+</head>
+
+<body>
+    <h1>Table e Form</h1>
+    <h2>Table</h2>
+    <table class="tbl">
+        <colgroup>
+            <col>
+            <col>
+            <col>
+        </colgroup>
+        <caption>Funcionarios</caption>
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Celular</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Dudao</td>
+                <td>(11)9-4002-8922</td>
+                <td>dudao@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Carioca</td>
+                <td>(11)9-8922-4002</td>
+                <td>carioca@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Isabella</td>
+                <td>(11)9-0240-2298</td>
+                <td>isa@gmail.com</td>
+            </tr>
+            <tr>
+                <td rowspan="2">Luizão</td>
+                <td>(11)9-6759-3159</td>
+                <td>luiz@gmail.com</td>
+            </tr>
+            <tr>
+                <!-- <td>Luiz</td> -->
+                <td>(11)9-9490-0485</td>
+                <td>luizgustavo@gmail.com</td>
+            </tr>
+            <tfoot>
+                <tr>
+                    <td colspan="3" align="center">Contatos de funcionário ativos.</td>
+                </tr>
+            </tfoot>
+        </tbody>
+    </table>
+
+    <h1>Exercicio - Table</h1>
+    <table class="tbl-ex1">
+        <colgroup>
+            <col>
+            <col>
+        </colgroup>
+        <caption>Sudeste x Sul</caption>
+        <thead>
+            <tr>
+                <th colspan="2">Estados</th>
+                <th>Cidades</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="12">Sudeste</td>
+                <td rowspan="3">São Paulo</td>
+                <td>São Paulo</td>
+            </tr>
+            <tr>
+                <td>Guarulhos</td>
+            </tr>
+            <tr>
+                <td>Campinas</td>
+            </tr>
+            <tr>
+                <td rowspan="3">Rio de Janeiro</td>
+                <td>Rio de Janeiro</td>
+            </tr>
+            <tr>
+                <td>São Goncalo</td>
+            </tr>
+            <tr>
+                <td>Duque de Caxias</td>
+            </tr>
+            <tr>
+                <td rowspan="3">Minas Gerais</td>
+                <td>Belo Horizonte</td>
+            </tr>
+            <tr>
+                <td>Uberlândia</td>
+            </tr>
+            <tr>
+                <td>Contagem</td>
+            </tr>
+            <tr>
+                <td rowspan="3">Espirito Santo</td>
+                <td>Vila Velha</td>
+            </tr>
+            <tr>
+                <td>Serra</td>
+            </tr>
+            <tr>
+                <td>Cariacica</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>
