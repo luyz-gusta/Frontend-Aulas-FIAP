@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM</title>
+</head>
+
+<body>
+    <h1>Formulario</h1>
+
+    <form action="cadastro" method="post">
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <label for="nome">Nome</label>
+            <input type="text" id="nome"><br>
+            <label for="email">Email</label>
+            <input type="text" id="email"><br>
+            <label for="senha">Senha</label>
+            <input type="password" id="senha" name="nm-senha" maxlength="6"><br>
+        </fieldset>
+        <fieldset>
+            <legend>Tamanho</legend>
+            <input type="radio" name="Tamanho" id="idPeq">
+            <label for="idPeq">Pequeno</label>
+            <input type="radio" name="Tamanho" id="idMed">
+            <label for="idMed">Médio</label>
+            <input type="radio" name="Tamanho" id="idGrd">
+            <label for="idGrd">Grande</label>
+        </fieldset>
+        <fieldset>
+            <legend>Cores</legend>
+            <input type="checkbox" name="azul" id="idAzul">
+            <label for="idAzul">Azul</label>
+            <input type="checkbox" name="verde" id="idVerde">
+            <label for="idVerde">Verde</label>
+            <input type="checkbox" name="vermelho" id="idVermelho">
+            <label for="idVermelho">Vermelho</label>
+        </fieldset>
+        <fieldset>
+            <legend>Observações</legend>
+            in
+        </fieldset>
+        <input type="submit" value="Cadastrar">
+    </form>
+
+</body>
+
+</html>
